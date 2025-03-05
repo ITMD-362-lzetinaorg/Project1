@@ -9,20 +9,30 @@
 </head>
 <body>
     <header>
-      <h1>Sign Up for our Scarlet Night Beta Test</h1>
+      <h1>Scarlet Night</h1>
       <p>An amazing open world experience in a night so red!</p>
     </header>
     <main>
-      <h2>Sign Up to get notified about the beta release date</h2>
-      <p>This open world game includes soulslike elements, where you play as the Scarlet Knight. A warrior whos armor is scarlet due to the enemies defeated!! Get a chance to experience an action packed adventure!!</p>
-      <form id="VideoGame">
-        <label for="name">First Name: </label>
-        <input type="text" id="name" name="name" required>
-        <label for="name">Last Name: </label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" required>
-        <input type="submit" name="submit" id="submit" value="Sign Up">
+      <div id="Info">
+        <h2>Sign Up to get notified about the beta test release date!</h2>
+        <p>This open world game includes soulslike elements, where you play as the Scarlet Knight. A warrior whos armor is scarlet due to the enemies defeated!! Get a chance to experience an action packed adventure!!</p>
+      </div>
+      <form id="VideoGame" method="post">
+        <div id="FirstName-box">
+          <label for="name">First Name: </label>
+          <input type="text" id="name" name="name" placeholder="Seth" required>
+        </div>
+        <div id ="LastName-box">
+          <label for="name">Last Name: </label>
+          <input type="text" id="name" name="name" placeholder="Joggins" required>
+        </div>
+        <div id="email-box">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" placeholder="SJogg@email.com" required>
+        </div>
+        <div id="submit">
+          <input type="submit" name="submit" id="submit" value="Sign Up">
+        </div>
       </form>
     </main>
 </body>
