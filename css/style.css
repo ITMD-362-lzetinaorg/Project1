@@ -33,6 +33,17 @@ h2{
     border-radius: 15px;
 }
 
+#VideoGame {
+    background-color: #757575;
+    padding: 15px;
+    margin: 25px auto;
+    border-radius: 15px; 
+    width: 85%;
+    max-width: 500px;
+    height:80%;
+    max-height: 500px;
+}
+
 
 
 
