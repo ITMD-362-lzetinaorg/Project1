@@ -1,0 +1,21 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header{
+    background-color:  #212121;    ;
+    padding: 10px;
+    text-align: center;
+}
+
+h1{
+    font-size: x-large;
+    font-weight: bolder;
+    color:  #660000 ;
+}
+
