@@ -64,6 +64,7 @@ h2{
   float: none;
   display: inline-flex;
   cursor: pointer;
+  padding: 5px;
 }
 
 
