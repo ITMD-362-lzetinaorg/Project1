@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded",function(){
     const email = document.getElementById("email");
     const signup = document.getElementById("VideoGame");
     const emailError = document.createElement ("p");
+    
     emailError.style.color = 'red';
     emailError.style.fontSize = '0.8rem';
     email.parentElement.appendChild(emailError);

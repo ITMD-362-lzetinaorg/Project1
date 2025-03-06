@@ -11,12 +11,12 @@ header{
   background-color:  #212121;    ;
   padding: 10px;
   text-align: center;
-  border-radius: 13px;
 }
 
 h1{
-  font-weight: 200;
+  font-weight: 700;
   font-size: 3rem;
+  text-decoration: underline;
   color:  #660000 ;
   padding-bottom: 10px;
 }
@@ -24,6 +24,7 @@ h1{
 h2{
   padding: 5px;
   font-size: 1.5rem;
+  text-decoration: underline;
 }
 
 #Info {
@@ -31,6 +32,7 @@ h2{
   padding: 25px;
   margin: 25px;
   border-radius: 15px;
+  float: none;
 }
 
 #VideoGame {
@@ -53,7 +55,8 @@ h2{
   margin-bottom: 5px;
   padding: 15px;
   display: flexbox;
-  float: inline-start;
+  float: none;
+  text-decoration: underline;
 }
 
 .signup-button {
@@ -64,7 +67,6 @@ h2{
   border-radius: 8px;
   box-shadow: #000000 10px;
   cursor: crosshair;
-  float: inherit;
 }
 
 .signup-button:hover {
