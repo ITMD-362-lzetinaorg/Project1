@@ -1,5 +1,5 @@
 body{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, sans-serif;
   background-color: #000000;
   color: #ffffff;
   margin: 0;
@@ -35,6 +35,7 @@ h2{
 
 #VideoGame {
   background-color: #757575;
+  color: #000000;
   padding: 15px;
   margin: 25px auto;
   border-radius: 15px; 
@@ -50,17 +51,20 @@ h2{
   flex-direction: column;
   margin-top: 5px;
   margin-bottom: 5px;
-  padding: 5px;
+  padding: 15px;
   display: flexbox;
+  float: inline-start;
 }
 
 .signup-button {
   background-color: #660000;
+  color: #757575;
   padding: 10px 15px;
   font-size: 1.5rem;
   border-radius: 8px;
   box-shadow: #000000 10px;
   cursor: crosshair;
+  float: inherit;
 }
 
 .signup-button:hover {
