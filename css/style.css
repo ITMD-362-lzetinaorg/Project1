@@ -59,11 +59,15 @@ h2{
   text-decoration: underline;
 }
 
+#last-name, #first-name, #email {
+  box-shadow: 5px 5px 5px #000000;
+}
+
 #age {
   float: none;
   display: inline-flex;
   cursor: pointer;
-  padding: 5px;
+  padding: 10px;
 }
 
 

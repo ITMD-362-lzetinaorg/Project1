@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded",function(){
     const email = document.getElementById("email");
-    const signup = document.getElementById("VideoGame");
     const emailError = document.createElement ("p");
     
     emailError.style.color = 'red';
@@ -15,4 +14,7 @@ document.addEventListener("DOMContentLoaded",function(){
             emailError.textContent = '';
         }
     } 
+
+    email.addEventListener("input", checkemail);
 });
+
