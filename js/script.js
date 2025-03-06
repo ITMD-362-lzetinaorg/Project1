@@ -21,7 +21,8 @@ document.addEventListener("DOMContentLoaded",function(){
     form.addEventListener('submit', function (event) {
         event.preventDefault();
         alert("Thank you for your intrest in Scarlet Night, your support is greatly appreciated.");
-        location.reload();
+        window.location.href = window.location.href;
     });
+
 });
 
