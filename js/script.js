@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded",function(){
     const email = document.getElementById("email");
     const emailError = document.createElement ("p");
+    const form = document.getElementById("VideoGame");
     
     emailError.style.color = 'red';
     emailError.style.fontSize = '0.8rem';
@@ -16,5 +17,11 @@ document.addEventListener("DOMContentLoaded",function(){
     } 
 
     email.addEventListener("input", checkemail);
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        alert("Thank you for your intrest in Scarlet Night, your support is greatly appreciated.");
+        location.reload();
+    });
 });
 
