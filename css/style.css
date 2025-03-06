@@ -1,6 +1,7 @@
 body{
   font-family: 'Times New Roman', Times, sans-serif;
   background-color: #000000;
+  background-position: fixed;
   color: #ffffff;
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@ body{
 }
 
 header{
-  background-color:  #212121;    ;
+  background-color: #212121;
   padding: 10px;
   text-align: center;
 }
@@ -43,7 +44,7 @@ h2{
   border-radius: 15px; 
   width: 85%;
   max-width: 500px;
-  height:80%;
+  height:100%;
   max-height: 500px;
 }
 
@@ -54,10 +55,18 @@ h2{
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 15px;
-  display: flexbox;
+  display: flex;
   float: none;
   text-decoration: underline;
 }
+
+#age {
+  float: none;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+
 
 .signup-button {
   background-color: #660000;
@@ -65,7 +74,7 @@ h2{
   padding: 10px 15px;
   font-size: 1.5rem;
   border-radius: 8px;
-  box-shadow: #000000 10px;
+  box-shadow: #000000, 10px;
   cursor: crosshair;
 }
 
