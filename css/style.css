@@ -95,7 +95,7 @@ h2{
   }
 
   .signup-container {
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     padding: 20px;
   }
@@ -105,6 +105,13 @@ h2{
     padding: 10px;
   }
 
+  form {
+    margin: 0 auto;
+  }
+  
+  head {
+    padding: 10px;
+  }
 }
 
 @media screen and (min-width: 1080px) {
@@ -113,12 +120,20 @@ h2{
   }
 
   .signup-container {
-    width: 50%;
+    width: 90%;
     padding: 30px;
   }
 
   input, button {
-    width: 80%;
+    width: 90%;
+  }
+
+  form {
+    max-width: 600px;
+  }
+  
+  label {
+    padding-bottom: 15px;
   }
 }
 
